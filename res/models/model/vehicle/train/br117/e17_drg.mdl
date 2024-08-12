@@ -1,0 +1,633 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.78, 1.555, 5.9, },
+		bbMin = { -9.78, -1.555, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0, 0, 0, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br117/dachaufbau_drg.mtl", },
+						mesh = "vehicle/train/br117/stromaufbau_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_drg.mtl", },
+						mesh = "vehicle/train/br117/holzstege_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/rumpf_drg_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/unterbau_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/hauptrad_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.41, 0, 0.75, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/hauptrad_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33, 0, 0.75, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/hauptrad_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.33, 0, 0.75, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/hauptrad_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.41, 0, 0.75, 1, },
+					},
+                    {
+						children = {
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/bogie_vorne_lod0.msh",
+								name = "bogie",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.62, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/spurrad_lod0.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18, 0, 0.45, 1, },
+							},
+						},
+						name = "bogie1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.98, 0, 0, 1, },
+                    },
+					{
+						children = {
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/bogie_hinten_lod0.msh",
+								name = "bogie",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.62, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/spurrad_lod0.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.18, 0, 0.45, 1, },
+							},
+						},
+						name = "bogie2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.98, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/fenster.mtl", },
+						mesh = "vehicle/train/br117/rumpf_drg_glas_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- Licht ---
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/drg_lampen_weiss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/spitzenlicht_drg_vorne_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/drg_lampen_rot_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/drg_lampen_weiss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/spitzenlicht_drg_hinten_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/drg_lampen_rot_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- Stromabnehmer ---
+					{
+						materials = { "vehicle/train/br117/dachaufbau_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_oben_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					
+					--- Lichter ---
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/drg_lampen_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/fenster.mtl", },
+						mesh = "vehicle/train/br117/drg_lampen_glas_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/spitzenlicht_drg_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/fenster.mtl", },
+						mesh = "vehicle/train/br117/spitzenlicht_drg_glas_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- Lokschilder ---
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/schilder_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/schilder_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},					
+					{
+						materials = { "vehicle/train/br117/dachaufbau_drg.mtl", },
+						mesh = "vehicle/train/br117/pfeifen_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_drg.mtl", },
+						mesh = "vehicle/train/br117/glocke_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.03108, 0, 3.86062, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/kabel_drg_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
+						mesh = "vehicle/train/br117/zss_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+--[[
+					--- Führerstand ---
+					{
+						materials = { "vehicle/train/br117/innen.mtl", },
+						mesh = "vehicle/train/br117/innen_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+]]
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+--[[
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/dachgarten_e_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/puffer_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/unterbau_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/innen.mtl", },
+						mesh = "vehicle/train/br117/innen_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/fenster.mtl", },
+						mesh = "vehicle/train/br117/fenster_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/fenster.mtl", },
+						mesh = "vehicle/train/br117/fenster_licht_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						children = {
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/drehgestell_lod1.msh",
+								name = "bogie",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod1.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, 0, 0.565616, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod1.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.45, 0, 0.565616, 1, },
+							},
+						},
+						name = "bogie1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.95, 0, 0.03, 1, },
+                    },
+					{
+						children = {
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/drehgestell_lod1.msh",
+								name = "bogie",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod1.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, 0, 0.565616, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod1.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.45, 0, 0.565616, 1, },
+							},
+						},
+						name = "bogie2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.95, 0, 0.03, 1, },
+					},
+					--- Licht ---
+					{
+						materials = { "vehicle/train/br117/br117_white_lights.mtl", },
+						mesh = "vehicle/train/br117/licht_spitze_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/licht_schluss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_white_lights.mtl", },
+						mesh = "vehicle/train/br117/licht_spitze_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
+						mesh = "vehicle/train/br117/licht_schluss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br117/beweglich_db.mtl", "vehicle/train/br117/rumpf_db.mtl", },
+						mesh = "vehicle/train/br117/panto_oben_de_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA KS --
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_unten_2_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/schleif-ns_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.385, 0, 4.08, 1, },
+					},
+					--- SA IT ---
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_unten_3_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/schleif-it_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.415, 0, 4.08, 1, },
+					},
+					--- SA PL ---
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_unten_4_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/schleif-ch_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.285, 0, 4.075, 1, },
+					},
+					--- Kamera ---
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/rumpf_kamera_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 400,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/dachgarten_e_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/puffer_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/unterbau_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/innen.mtl", },
+						mesh = "vehicle/train/br117/innen_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						children = {
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/drehgestell_lod2.msh",
+								name = "bogie",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod2.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, 0, 0.565616, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod2.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.45, 0, 0.565616, 1, },
+							},
+						},
+						name = "bogie1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.95, 0, 0.03, 1, },
+                    },
+					{
+						children = {
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/drehgestell_lod2.msh",
+								name = "bogie",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod2.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, 0, 0.565616, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+								mesh = "vehicle/train/br117/rad_lod2.msh",
+								name = "rad",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.45, 0, 0.565616, 1, },
+							},
+						},
+						name = "bogie2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.95, 0, 0.03, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br117/beweglich_db.mtl", "vehicle/train/br117/rumpf_db.mtl", },
+						mesh = "vehicle/train/br117/panto_oben_de_lod2.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA KS --
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_unten_2_lod2.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA IT ---
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_unten_3_lod2.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA PL ---
+					{
+						materials = { "vehicle/train/br117/beweglich_drg.mtl", },
+						mesh = "vehicle/train/br117/panto_unten_4_lod2.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 400,
+			visibleTo = 800,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br117/rumpf_e17_drg.mtl", },
+						mesh = "vehicle/train/br117/rumpf_lod3.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 800,
+			visibleTo = 2000,
+		},
+]]
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1928,
+			yearTo = 1968,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("e17_drg_name"),
+			description = _("br117_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/train/br117/hauptrad_lod0.msh", "vehicle/train/br117/spurrad_lod0.msh", },
+					backBackwardParts = { }, 	-- Wendefahrt und Lok schiebt; Licht Rot vorne
+					backForwardParts = { },	 	-- Vorwärtsfahrt und Lok/Waggon schiebt/ist am Ende; Licht rot hinten
+					frontBackwardParts = { },	-- Wendefahrt und Lok/Waggon zieht/ist am Ende; Licht weiß hinten
+					frontForwardParts = { },	-- Vorwärtsfahrt und Lok zieht; Licht weiß vorne
+					innerBackwardParts = { },		-- Wendefahrt wie Waggon in mitte des Zug;
+					innerForwardParts = { },		-- Vorwärtsfahrt wie Waggon in mitte des Zug;
+				},
+				{
+					axles = { "vehicle/train/br117/hauptrad_lod1.msh", "vehicle/train/br117/spurrad_lod1.msh", },
+				},
+				{
+					axles = { "vehicle/train/br117/hauptrad_lod2.msh", "vehicle/train/br117/spurrad_lod2.msh", },
+				},
+			},
+			engines = {
+				{
+					power = 2800,
+					tractiveEffort = 285,
+					type = "ELECTRIC",
+				},
+			},
+			soundSet = { name = "train_electric_modern", },
+			topSpeed = 38.8889,
+			weight = 117,
+		},
+		transportVehicle = {
+            carrier = "RAIL",
+			multipleUnitOnly = false,
+            reversible = true,
+            groupFileName = "vehicle/train/br117/menu_br117.mdl",
+        },
+		seatProvider = {
+            crewModels = { "characters/era_c_driver_rail.mdl" },
+		    drivingLicense = "RAIL",
+		    seats = {
+                {
+                    animation = "driving_upright",
+					crew = true,
+                    forward = true,
+					group = 1,
+                     transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.9, -0.78, 1.7, 1, },
+                },
+                {
+                    animation = "driving_upright",
+					crew = true,
+                    forward = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.9, 0.78, 1.7, 1, },
+                },
+            },
+		},
+		br117 = {
+			vorspann = false,
+			fake = false,
+		},
+	},
+	version = 1,
+}
+end
