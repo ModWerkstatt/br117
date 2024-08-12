@@ -37,8 +37,8 @@ return {
         ["br117_menu_vorspann"] = 	"DB BR 117 Vorspann",
 		["br117_desc"] = "	füllen			",
 
-		["e17_drg_name"] = 		"E17 106 (1928)",
-		["e17_drg2_name"] = 	"E17 106 (1928)",
+		["e17_drg_name"] = 		"E17 106 - Mitteldeutschland Netz (1928)",
+		["e17_drg2_name"] = 	"E17 124 - Schlesien (1928)",
 		["e17_drg3_name"] = 	"E17 106 (1928)",
 
         -- Vorspann
