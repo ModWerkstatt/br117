@@ -578,18 +578,18 @@ return {
 		    drivingLicense = "RAIL",
 		    seats = {
                 {
-                    animation = "driving_upright",
+                    animation = "idle",
 					crew = true,
                     forward = true,
 					group = 1,
-                     transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.9, -0.78, 1.7, 1, },
+                     transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.4, -0.9, 1.5, 1, },
                 },
                 {
-                    animation = "driving_upright",
+                    animation = "idle",
 					crew = true,
                     forward = false,
 					group = 1,
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.9, 0.78, 1.7, 1, },
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.4, 0.73, 1.5, 1, },
                 },
             },
 		},
