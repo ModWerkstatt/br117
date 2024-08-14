@@ -109,37 +109,37 @@ return {
 					{
 						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
 						mesh = "vehicle/train/br117/drg_lampen_weiss_lod0.msh",
-						name = "Licht hinten weiß",
+						name = "Licht vorne weiß 1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
 						mesh = "vehicle/train/br117/spitzenlicht_drg_vorne_lod0.msh",
-						name = "Licht hinten weiß",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						name = "Licht vorne weiß 2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
 						mesh = "vehicle/train/br117/drg_lampen_rot_lod0.msh",
-						name = "Licht hinten weiß",
+						name = "Licht hinten rot",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
 						mesh = "vehicle/train/br117/drg_lampen_weiss_lod0.msh",
-						name = "Licht hinten weiß",
+						name = "Licht hinten weiß 1",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
-						mesh = "vehicle/train/br117/spitzenlicht_drg_hinten_lod0.msh",
-						name = "Licht hinten weiß",
+						mesh = "vehicle/train/br117/spitzenlicht_drg_vorne_lod0.msh",
+						name = "Licht hinten weiß 2",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/br117_red_lights.mtl", },
 						mesh = "vehicle/train/br117/drg_lampen_rot_lod0.msh",
-						name = "Licht hinten weiß",
+						name = "Licht vorne rot",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					--- Stromabnehmer ---
@@ -149,7 +149,7 @@ return {
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					
+
 					--- Lichter ---
 					{
 						materials = { "vehicle/train/br117/rumpf_drg.mtl", },
@@ -187,7 +187,7 @@ return {
 						mesh = "vehicle/train/br117/schilder_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},					
+					},
 					{
 						materials = { "vehicle/train/br117/dachaufbau_drg.mtl", },
 						mesh = "vehicle/train/br117/pfeifen_lod0.msh",
@@ -570,12 +570,12 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/br117/hauptrad_lod0.msh", "vehicle/train/br117/spurrad_lod0.msh", },
-					backBackwardParts = { }, 	-- Wendefahrt und Lok schiebt; Licht Rot vorne
-					backForwardParts = { },	 	-- Vorwärtsfahrt und Lok/Waggon schiebt/ist am Ende; Licht rot hinten
-					frontBackwardParts = { },	-- Wendefahrt und Lok/Waggon zieht/ist am Ende; Licht weiß hinten
-					frontForwardParts = { },	-- Vorwärtsfahrt und Lok zieht; Licht weiß vorne
-					innerBackwardParts = { },		-- Wendefahrt wie Waggon in mitte des Zug;
-					innerForwardParts = { },		-- Vorwärtsfahrt wie Waggon in mitte des Zug;
+					backBackwardParts = { 18, },
+					backForwardParts = { 16, },
+					frontBackwardParts = { 15, },
+					frontForwardParts = { 17, },
+					innerBackwardParts = { },
+					innerForwardParts = { },
 				},
 				{
 					axles = { "vehicle/train/br117/hauptrad_lod1.msh", "vehicle/train/br117/spurrad_lod1.msh", },
