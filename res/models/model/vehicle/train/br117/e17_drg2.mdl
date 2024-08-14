@@ -518,7 +518,7 @@ return {
 	metadata = {
 		availability = {
 			yearFrom = 1928,
-			yearTo = 1968,
+			yearTo = 1934,
 		},
 		cost = {
 			price = -1,
@@ -563,22 +563,22 @@ return {
 			engines = {
 				{
 					power = 2800,
-					tractiveEffort = 285,
+					tractiveEffort = 235,
 					type = "ELECTRIC",
 				},
 			},
 			soundSet = { name = "train_electric_modern", },
-			topSpeed = 38.8889,
-			weight = 117,
+			topSpeed = 27.777777,  -- ab 1934: 33.333333333
+			weight = 111.7,
 		},
 		transportVehicle = {
             carrier = "RAIL",
 			multipleUnitOnly = false,
-            reversible = true,
+            reversible = false,
             groupFileName = "vehicle/train/br117/menu_br117.mdl",
         },
 		seatProvider = {
-            crewModels = { "characters/era_c_driver_rail.mdl" },
+            crewModels = { "characters/era_b_driver_rail.mdl" },
 		    drivingLicense = "RAIL",
 		    seats = {
                 {
