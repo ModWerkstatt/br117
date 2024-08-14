@@ -542,12 +542,10 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/br117/hauptrad_lod0.msh", "vehicle/train/br117/spurrad_lod0.msh", },
-					backBackwardParts = { 18, },
-					backForwardParts = { 16, },
-					frontBackwardParts = { 15, },
-					frontForwardParts = { 17, },
-					innerBackwardParts = { },
-					innerForwardParts = { },
+					backBackwardParts = { 21, },
+					backForwardParts = { 18, },
+					frontBackwardParts = { 19, 20, },
+					frontForwardParts = { 16, 17, },
 				},
 				{
 					axles = { "vehicle/train/br117/hauptrad_lod1.msh", "vehicle/train/br117/spurrad_lod1.msh", },
