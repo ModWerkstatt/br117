@@ -79,7 +79,7 @@ return {
 							},
 						},
 						name = "bogie1",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.98, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.945, 0, 0, 1, },
                     },
 					{
 						children = {
@@ -97,7 +97,7 @@ return {
 							},
 						},
 						name = "bogie2",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.98, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.945, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/fenster.mtl", },
@@ -176,12 +176,6 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					--- Lokschilder ---
-					{
-						materials = { "vehicle/train/br117/rumpf_drg2.mtl", },
-						mesh = "vehicle/train/br117/schilder_lod0.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
 					{
 						materials = { "vehicle/train/br117/rumpf_drg2.mtl", },
 						mesh = "vehicle/train/br117/schilder_lod0.msh",
@@ -294,7 +288,7 @@ return {
 							},
 						},
 						name = "bogie1",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.98, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.945, 0, 0, 1, },
                     },
 					{
 						children = {
@@ -312,7 +306,7 @@ return {
 							},
 						},
 						name = "bogie2",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.98, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.945, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/fenster.mtl", },
@@ -455,7 +449,7 @@ return {
 							},
 						},
 						name = "bogie1",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.98, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.945, 0, 0, 1, },
                     },
 					{
 						children = {
@@ -467,7 +461,7 @@ return {
 							},
 						},
 						name = "bogie2",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.98, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.945, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br117/fenster.mtl", },
@@ -549,12 +543,10 @@ return {
 				},
 				{
 					axles = { "vehicle/train/br117/hauptrad_lod1.msh", "vehicle/train/br117/spurrad_lod1.msh", },
-					backBackwardParts = { 18, },
-					backForwardParts = { 16, },
-					frontBackwardParts = { 15, },
-					frontForwardParts = { 17, },
-					innerBackwardParts = { },
-					innerForwardParts = { },
+					backBackwardParts = { 21, },
+					backForwardParts = { 18, },
+					frontBackwardParts = { 19, 20, },
+					frontForwardParts = { 16, 17, },
 				},
 				{
 					axles = { "vehicle/train/br117/hauptrad_lod2.msh", "vehicle/train/br117/spurrad_lod2.msh", },
