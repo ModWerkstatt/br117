@@ -37,9 +37,14 @@ return {
         ["br117_menu_vorspann"] = 	"DB BR 117 Vorspann",
 		["br117_desc"] = "	füllen			",
 
-		["e17_drg_name"] = 		"E17 106 - Mitteldeutschland Netz (1928)",
-		["e17_drg2_name"] = 	"E17 124 - Schlesien (1928)",
-		["e17_drg3_name"] = 	"E17 106 (1928)",
+		["e17_dr_name"] = 		"E17 123 - Flaschengrün DR (1946)",
+		["e17_db_name"] = 		"E17 111 - DB Chromoxidgrün (1959)",
+		["e17_db2_name"] = 		"E17 07 - DB Flaschengrün (1949)",
+		["e17_db3_name"] = 		"E17 111 - DB Flaschengrün (1949)",
+		["e17_db4_name"] = 		"E17 111 - DB Flaschengrün (1949)",
+		["e17_db5_name"] = 		"E17 111 - DB Flaschengrün (1949)",
+		["e17_drg_name"] = 		"E17 106 - DRG Mitteldeutschland Netz (1928)",
+		["e17_drg2_name"] = 	"E17 124 - DRG Schlesien (1928)",
 
         -- Vorspann
         ["Vorspann_br117"] = "Vorspann-Loks aktivieren?",
