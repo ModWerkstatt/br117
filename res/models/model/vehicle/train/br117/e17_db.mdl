@@ -368,12 +368,6 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
-						mesh = "vehicle/train/br117/glocke_lod1.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.03108, 0, 3.86062, 1, },
-					},
-					{
 						materials = { "vehicle/train/br117/rumpf_db.mtl", },
 						mesh = "vehicle/train/br117/zss_lod1.msh",
 						name = "rumpf",
