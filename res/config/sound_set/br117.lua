@@ -32,6 +32,23 @@ soundsetutil.addTrackParam01
 			{ 1.0, 1.0 } 
 		}, 
 		"speed01")	
+
+		
+soundsetutil.addTrackParam01
+(data, "vehicle/train/br117/117_luft.wav", 25.0,
+		{
+			{ 0.00, 0.0},
+			{ 0.1, 0.8},
+			{ 0.30, 1.3},
+			{ 1.00, 1.3},
+			
+		},
+		{
+			{ 0.0, 0.9 }, 
+			{ 1.0, 1.0 } 
+		}, 
+		"speed01")	
+		
 		
 		
 soundsetutil.addTrackParam01
