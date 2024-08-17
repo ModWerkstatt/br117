@@ -189,12 +189,6 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
-						mesh = "vehicle/train/br117/glocke_lod0.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.03108, 0, 3.86062, 1, },
-					},
-					{
 						materials = { "vehicle/train/br117/rumpf_db.mtl", },
 						mesh = "vehicle/train/br117/kabel_drg_lod0.msh",
 						name = "rumpf",
@@ -559,7 +553,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "train_electric_modern", },
+			soundSet = { name = "br117", },
 			topSpeed = 33.333333333,
 			weight = 111.7,
 		},

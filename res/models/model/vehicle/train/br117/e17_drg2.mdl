@@ -559,7 +559,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "train_electric_modern", },
+			soundSet = { name = "br117", },
 			topSpeed = 27.777777,  -- ab 1934: 33.333333333
 			weight = 111.7,
 		},
