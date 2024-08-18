@@ -29,7 +29,7 @@ return {
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/br117/rumpf_db8_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/br117/rumpf_db9_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_dirt = {
@@ -47,7 +47,7 @@ return {
 			type = "TWOD",
 		},
 		map_normal = {
-			fileName = "models/vehicle/train/br117/rumpf_db8_normal.dds",
+			fileName = "models/vehicle/train/br117/rumpf_db9_normal.dds",
 			redGreen = true,
 			type = "TWOD",
 		},
