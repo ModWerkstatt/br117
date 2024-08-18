@@ -11,14 +11,6 @@ return {
 
 		["br117_siemens_name"] = 	"Class 189 917 Siemens - Grenzenlose Mobilität (2007)",
 
-
-        -- Vorspann
-        ["Vorspann_br117"] = "Active lead engines?",
-        ["option_vorspann_br117_desc"] = "Active the lead engines (with front panto raised)?",
-
-		["br117_db_name_vorspann"] = 		"Lead - Class 117 076 DB Cargo",
-		
-		
         -- Fake
         ["Fake_br117"] = "Active fake engines?",
         ["option_fake_br117_desc"] = "Active the fake engines (pantos down, no light, no driver)?",
@@ -48,13 +40,6 @@ return {
 		["e17_db8_name"] = 		"BR 117 110 - DB Chromoxidgrün (1960)",
 		["e17_drg_name"] = 		"E17 106 - DRG Mitteldeutschland Netz (1928)",
 		["e17_drg2_name"] = 	"E17 124 - DRG Schlesien (1928)",
-
-        -- Vorspann
-        ["Vorspann_br117"] = "Vorspann-Loks aktivieren?",
-        ["option_vorspann_br117_desc"] = "Die Vorspann-Loks (mit vorderem Panto gehoben) aktiviert werden?",
-		
-		["e17_db7_name_vorspann"] =	"Vorspann -  BR 117 113 - DB Chromoxidgrün (1974)",
-		["e17_db8_name_vorspann"] =	"Vorspann - BR 117 110 - DB Chromoxidgrün (1960)",
 
         -- Fake
         ["Fake_br117"] = "Fake-Loks aktivieren?",

@@ -18,13 +18,6 @@ return {
 		url = { "" },
         params = {
 			{
-				key = "br117_vorspann",
-				name = _("Vorspann_br117"),
-				values = { "No", "Yes", },
-				tooltip = _("option_vorspann_br117_desc"),
-				defaultIndex = 0,
-			},
-			{
 				key = "br117_fake",
 				name = _("Fake_br117"),
 				values = { "No", "Yes", },
@@ -37,8 +30,8 @@ return {
 	},
 	runFn = function (settings, modParams)
 
-		local vorspannFilter = function(fileName, data)
-			if data.metadata.transportVehicle and data.metadata.br117 and data.metadata.br117.vorspann == true then
+		local fakeFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br117 and data.metadata.br117.fake == true then
 				data.metadata.availability.yearFrom = 1
 				data.metadata.availability.yearTo = 2
 				--return false
@@ -47,27 +40,15 @@ return {
 			return data
 		end
 
-		local fakeFilter = function(fileName, data)
-			if data.metadata.transportVehicle and data.metadata.br117 and data.metadata.br117.fake == true then
-				data.metadata.availability.yearFrom = 1
-				data.metadata.availability.yearTo = 2
-			end
-			return data
-		end
-
 		if modParams[getCurrentModId()] ~= nil then
 			local params = modParams[getCurrentModId()]
-			if params["br117_vorspann"] == 0 then
-				--addFileFilter("model/transportVehicle", vorspannFilter)
-				addModifier("loadModel", vorspannFilter)
-			end
 			if params["br117_fake"] == 0 then
+				--addFileFilter("model/transportVehicle", fakeFilter)
 				addModifier("loadModel", fakeFilter)
 			end
 
 		else
-			--addFileFilter("model/transportVehicle", vorspannFilter)
-			addModifier("loadModel", fakeFilter)
+			--addFileFilter("model/transportVehicle", fakeFilter)
 		end
 	end
 }
