@@ -29,6 +29,11 @@ return {
 			scaleDownAllowed = false,
 			type = "TWOD",
 		},
+		map_normal = {
+			fileName = "models/vehicle/train/br117/innen/innen_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
 		polygon_offset = {
 			factor = 0,
 			forceDepthWrite = false,

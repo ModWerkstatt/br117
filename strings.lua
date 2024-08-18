@@ -53,13 +53,24 @@ return {
         ["Vorspann_br117"] = "Vorspann-Loks aktivieren?",
         ["option_vorspann_br117_desc"] = "Die Vorspann-Loks (mit vorderem Panto gehoben) aktiviert werden?",
 		
-		["e17_0_name_vorspann"] = 	"Vorspann - E17 106 (1928)",
+		["e17_db7_name_vorspann"] =	"Vorspann -  BR 117 113 - DB Chromoxidgrün (1974)",
+		["e17_db8_name_vorspann"] =	"Vorspann - BR 117 110 - DB Chromoxidgrün (1960)",
 
         -- Fake
         ["Fake_br117"] = "Fake-Loks aktivieren?",
         ["option_fake_br117_desc"] = "Die Fake-Loks (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
 		
-		["e17_0_name_fake"] = 	"Fake - E17 106 (1928)",
+		["e17_dr_name_fake"] = 		"Fake - E17 123 - Flaschengrün DR (1946)",
+		["e17_db_name_fake"] = 		"Fake - E17 111 - DB Chromoxidgrün (1959)",
+		["e17_db2_name_fake"] = 	"Fake - E17 07 - DB Flaschengrün (1949)",
+		["e17_db3_name_fake"] = 	"Fake - BR 117 004 - DB Flaschengrün (1968)",
+		["e17_db4_name_fake"] = 	"Fake - BR 117 007 - DB Chromoxidgrün (1968)",
+		["e17_db5_name_fake"] = 	"Fake - BR 117 011 - DB Chromoxidgrün Fahrwerk Feuerrot (1968)",
+		["e17_db6_name_fake"] = 	"Fake - BR 117 122 - DB Chromoxidgrün (1974)",
+		["e17_db7_name_fake"] = 	"Fake - BR 117 113 - DB Chromoxidgrün (1974)",
+		["e17_db8_name_fake"] = 	"Fake - BR 117 110 - DB Chromoxidgrün (1960)",
+		["e17_drg_name_fake"] =		"Fake - E17 106 - DRG Mitteldeutschland Netz (1928)",
+		["e17_drg2_name_fake"] = 	"Fake - E17 124 - DRG Schlesien (1928)",
 
 	},
 }

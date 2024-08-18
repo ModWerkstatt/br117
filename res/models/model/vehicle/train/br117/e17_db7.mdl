@@ -408,9 +408,75 @@ return {
 					--- Stromabnehmer ---
 					{
 						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
-						mesh = "vehicle/train/br117/panto_oben_lod1.msh",
+						mesh = "vehicle/train/br117/panto2_oben_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod1.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod1.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod1.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod1.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod1.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod1.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 
 					--- Lichter ---
@@ -514,9 +580,75 @@ return {
 					--- Stromabnehmer ---
 					{
 						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
-						mesh = "vehicle/train/br117/panto_oben_lod2.msh",
+						mesh = "vehicle/train/br117/panto2_oben_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod2.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod2.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod2.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod2.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod2.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod2.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					--- Führerstand ---
 					{
@@ -577,7 +709,7 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { "vehicle/train/br117/hauptrad_lod0.msh", "vehicle/train/br117/spurrad_lod0.msh", },
+					axles = { "vehicle/train/br117/hauptrad_lod2.msh", "vehicle/train/br117/spurrad_lod2.msh", },
 					backBackwardParts = { 21, },
 					backForwardParts = { 18, },
 					frontBackwardParts = { 19, 20, },
