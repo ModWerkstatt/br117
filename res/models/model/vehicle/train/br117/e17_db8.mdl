@@ -144,14 +144,14 @@ return {
 					},
 					--- Stromabnehmer ---
 					{
-						materials = { "vehicle/train/br117/dachaufbau_db3.mtl", },
-						mesh = "vehicle/train/br117/schere_oben_lod0.msh",
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_oben_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br117/dachaufbau_db3.mtl", },
-						mesh = "vehicle/train/br117/schere_unten_lod0.msh",
+						materials = { "vehicle/train/br117/dachaufbau_db.mtl", },
+						mesh = "vehicle/train/br117/panto2_unten_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
