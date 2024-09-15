@@ -498,7 +498,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 800,
-			visibleTo = 2000,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
@@ -527,7 +527,7 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { "vehicle/train/br117/hauptrad_lod2.msh", "vehicle/train/br117/spurrad_lod2.msh", },
+					axles = { "vehicle/train/br117/hauptrad_lod0.msh", "vehicle/train/br117/spurrad_lod0.msh", },
 					backBackwardParts = { 21, },
 					backForwardParts = { 18, },
 					frontBackwardParts = { 19, 20, },

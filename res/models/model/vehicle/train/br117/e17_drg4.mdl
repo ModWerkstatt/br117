@@ -506,7 +506,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 800,
-			visibleTo = 2000,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
@@ -519,7 +519,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("e17_drg2_name"),
+			name = _("e17_drg4_name"),
 			description = _("br117_desc"),
 		},
 		emission = {

@@ -506,7 +506,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 800,
-			visibleTo = 2000,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
@@ -560,7 +560,7 @@ return {
 				},
 			},
 			soundSet = { name = "br117", },
-			topSpeed = 27.777777,  -- ab 1934: 33.333333333
+			topSpeed = 27.777777,
 			weight = 111.7,
 		},
 		transportVehicle = {

@@ -494,7 +494,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 800,
-			visibleTo = 2000,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {

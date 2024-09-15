@@ -479,7 +479,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 800,
-			visibleTo = 2000,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
@@ -515,7 +515,7 @@ return {
 					frontForwardParts = { 16, 17, },
 				},
 				{
-					axles = { "vehicle/train/br117/hauptrad_lod2.msh", "vehicle/train/br117/spurrad_lod2.msh", },
+					axles = { "vehicle/train/br117/hauptrad_lod1.msh", "vehicle/train/br117/spurrad_lod1.msh", },
 					backBackwardParts = { 21, },
 					backForwardParts = { 18, },
 					frontBackwardParts = { 19, 20, },

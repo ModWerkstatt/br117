@@ -479,20 +479,20 @@ return {
 			},
 			static = false,
 			visibleFrom = 800,
-			visibleTo = 2000,
+			visibleTo = 1500,
 		},
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1968,
-			yearTo = 1980,
+			yearFrom = 1960,
+			yearTo = 1968,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("e17_db9_name"),
+			name = _("e17_db8_name"),
 			description = _("br117_desc"),
 		},
 		emission = {
@@ -515,7 +515,7 @@ return {
 					frontForwardParts = { 16, 17, },
 				},
 				{
-					axles = { "vehicle/train/br117/hauptrad_lod2.msh", "vehicle/train/br117/spurrad_lod2.msh", },
+					axles = { "vehicle/train/br117/hauptrad_lod1.msh", "vehicle/train/br117/spurrad_lod1.msh", },
 					backBackwardParts = { 21, },
 					backForwardParts = { 18, },
 					frontBackwardParts = { 19, 20, },
