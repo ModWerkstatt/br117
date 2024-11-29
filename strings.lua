@@ -18,10 +18,10 @@ return {
 		["e17_db6_name"] = 		"DB Class 117 chrome oxide green (1974)",
 		["e17_db7_name"] = 		"DB Class 117 chrome oxide green (1974)",
 		["e17_db8_name"] = 		"DB E 17 chrome oxide green (1960)",
-        ["e17_db9_name"] =      "DB BR 117 chrome oxide green (1968)",
+        ["e17_db9_name"] =      "DB Class 117 chrome oxide green (1968)",
 		["e17_drg_name"] = 		"DRG E 17 Middle Germany (1928)",
 		["e17_drg2_name"] = 	"DRG E 17 Silesia (1928)",
-		["e17_drg3_name"] = 		"DRG E 17 Middle Germany [120 km/h] (1934)",
+		["e17_drg3_name"] = 	"DRG E 17 Middle Germany [120 km/h] (1934)",
 		["e17_drg4_name"] = 	"DRG E 17 Silesia [120 km/h] (1934)",
 
         -- Fake
@@ -37,7 +37,7 @@ return {
 		["e17_db6_name_fake"] = 	"Fake - DB Class 117 chrome oxide green (1974)",
 		["e17_db7_name_fake"] = 	"Fake - DB Class 117 chrome oxide green (1974)",
 		["e17_db8_name_fake"] = 	"Fake - DB E 17 chrome oxide green (1960)",
-        ["e17_db9_name_fake"] =     "Fake - DB BR 117 chromoxidgrün (1968)",
+        ["e17_db9_name_fake"] =     "Fake - DB Class 117 chromoxidgrün (1968)",
 		["e17_drg_name_fake"] =		"Fake - DRG E 17 Middle Germany (1928)",
 		["e17_drg2_name_fake"] = 	"Fake - DRG E 17 Silesia (1928)",
 		["e17_drg3_name_fake"] = 	"Fake - DRG E 17 Middle Germany [120 km/h] (1934)",
@@ -65,7 +65,7 @@ return {
         ["e17_db9_name"] =      "DB BR 117 chromoxidgrün (1968)",
 		["e17_drg_name"] = 		"DRG E 17 Mitteldeutschland (1928)",
 		["e17_drg2_name"] = 	"DRG E 17 Schlesien (1928)",
-		["e17_drg3_name"] = 		"DRG E 17 Mitteldeutschland [120 km/h] (1934)",
+		["e17_drg3_name"] = 	"DRG E 17 Mitteldeutschland [120 km/h] (1934)",
 		["e17_drg4_name"] = 	"DRG E 17 Schlesien [120 km/h] (1934)",
 
         -- Fake
